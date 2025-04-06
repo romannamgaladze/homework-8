@@ -48,8 +48,98 @@ body {
 }
 .para-1 {
   font-size: 18px;
+  font-weight: 600;
   line-height: 23px;
   color: #212628;
   opacity: 0.6;
+  margin-bottom: 43px;
 }
 /* .......Form......... */
+input {
+  width: 424px;
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding-left: 25px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212628;
+  opacity: 0.5;
+  margin-bottom: 27px;
+}
+.card-number {
+  position: relative;
+}
+.card-icon {
+  position: absolute;
+  top: 17px;
+  right: 25px;
+  width: 29px;
+  height: 21px;
+  border: 2px rgba(0, 0, 0, 0.5);
+}
+.date-cvv {
+  display: flex;
+  justify-content: space-between;
+  /* width: 424px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.5; */
+  margin-bottom: 27px;
+}
+.date1 {
+  width: 282px;
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212628;
+  opacity: 0.5;
+}
+.CVV1 {
+  width: 119px;
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212628;
+  opacity: 0.5;
+}
+.country-chooser {
+  display: flex;
+  justify-content: space-between;
+  width: 424px;
+  height: 54px;
+  /* border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-bottom: 27px; */
+}
+.select-country {
+  width: 282px;
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212628;
+  opacity: 0.5;
+  padding-left: 25px;
+  outline: none;
+}
+.zip {
+  width: 119px;
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212628;
+  opacity: 0.5;
+}
