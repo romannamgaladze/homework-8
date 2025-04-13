@@ -19,10 +19,10 @@
         </div>
         <!-- .........Form......... -->
         <form action="#">
-          <input type="email" placeholder="Email" />
-          <input type="text" placeholder="Cardholder Name" />
+          <input type="email" placeholder="Email" class="input-email" />
+          <input type="text" placeholder="Cardholder Name" class="input-text" />
           <div class="card-number">
-            <input type="text" placeholder="Card Number" />
+            <input type="text" placeholder="Card Number" class="input-text" />
             <img src="./Images/card.svg" alt="card" class="card-icon" />
           </div>
           <div class="date-cvv">
@@ -37,6 +37,20 @@
               <option value="canada">Canada</option>
             </select>
             <div><input type="text" class="zip" placeholder="ZIP" /></div>
+          </div>
+          <div class="nerve-destroyer">
+            <input type="checkbox" id="fcheckbox" class="checkbox-wrapper" />
+            <label for="checkbox" class="checkbox-text"
+              >I accept the
+              <a href="#"> <span class="terms"> Terms of Service</span> </a> and
+              <a href="#"> <span class="terms"> Privacy Policy</span> </a>
+            </label>
+          </div>
+          <button class="submit" type="submit">
+            Get started $199 <span class="old-price"> $249</span>
+          </button>
+          <div class="div-coupon">
+            <a href="#"> <p class="para-coupon">Have a coupon?</p> </a>
           </div>
         </form>
       </div>
